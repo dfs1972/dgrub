@@ -2,18 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "../../hooks/useCart";
 import classes from "./header.module.css";
-//import { useAuth } from "../../hooks/useAuth";
+import { useAuth } from "../../hooks/useAuth";
 
 export default function Header() {
-  const user = {
-    name: "DW",
-  };
+  const { user, logout } = useAuth();
 
-  const logout = () => {};
-
-  const cart = {
-    totalCount: 10,
-  };
+  const { cart } = useCart();
 
   return (
     <header className={classes.header}>
