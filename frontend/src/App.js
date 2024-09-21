@@ -2,7 +2,7 @@ import AppRoutes from "./AppRoutes";
 import Header from "./components/Header/Header";
 import Loading from "./components/Loading/Loading";
 import { useLoading } from "./hooks/useLoading";
-import { setLoadingInterceptor } from "./intercepters/loadingIntercepter.js";
+import { setLoadingInterceptor } from "./interceptors/loadingInterceptor.js";
 import { useEffect } from "react";
 
 function App() {
