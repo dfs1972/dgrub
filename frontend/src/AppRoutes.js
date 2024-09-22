@@ -9,6 +9,7 @@ import AuthRoute from "./components/AuthRoute/AuthRoute";
 import CheckoutPage from "./pages/Checkout/CheckoutPage";
 import PaymentPage from "./pages/Payment/PaymentPage";
 import OrderTrackPage from "./pages/OrderTrack/OrderTrackPage";
+import ProfilePage from "./pages/Profile/ProfilePage";
 
 function AppRoutes() {
   return (
@@ -43,6 +44,15 @@ function AppRoutes() {
         element={
           <AuthRoute>
             <OrderTrackPage />
+          </AuthRoute>
+        }
+      />
+
+      <Route
+        path="/profile"
+        element={
+          <AuthRoute>
+            <ProfilePage />
           </AuthRoute>
         }
       />
