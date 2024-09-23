@@ -6,7 +6,7 @@ import Tags from "../../components/Tags/Tags";
 import { getById } from "../../services/foodService";
 import classes from "./foodPage.module.css";
 import { useCart } from "../../hooks/useCart";
-import { NotFound } from "../../components/NotFound/NotFound";
+import NotFound from "../../components/NotFound/NotFound";
 
 export const FoodPage = () => {
   const [food, setFood] = useState({});

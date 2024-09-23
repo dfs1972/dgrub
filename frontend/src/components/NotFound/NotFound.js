@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./notFound.module.css";
 import { Link } from "react-router-dom";
 
-export const NotFound = ({ message, linkRoute, linkText }) => {
+const NotFound = ({ message, linkRoute, linkText }) => {
   return (
     <div className={classes.container}>
       {message}
@@ -10,6 +10,8 @@ export const NotFound = ({ message, linkRoute, linkText }) => {
     </div>
   );
 };
+
+export default NotFound;
 
 NotFound.defaultProps = {
   message: "Nothing Found!",
