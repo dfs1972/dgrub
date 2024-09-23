@@ -2,7 +2,7 @@ import React, { useEffect, useReducer } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getAll, getAllStatus } from "../../services/orderService";
 import classes from "./ordersPage.module.css";
-import Title from "../../components/Title/Title";
+import { Title } from "../../components/Title/Title";
 import DateTime from "../../components/DateTime/DateTime";
 import Price from "../../components/Price/Price";
 import NotFound from "../../components/NotFound/NotFound";

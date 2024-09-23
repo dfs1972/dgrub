@@ -5,7 +5,7 @@ import NotFound from "../../components/NotFound/NotFound";
 import classes from "./orderTrackPage.module.css";
 import DateTime from "../../components/DateTime/DateTime";
 import OrderItemsList from "../../components/OrderItemsList/OrderItemsList";
-import Title from "../../components/Title/Title";
+import { Title } from "../../components/Title/Title";
 import Map from "../../components/Map/Map";
 
 export default function OrderTrackPage() {

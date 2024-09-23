@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import Title from "../Title/Title";
+import { Title } from "../Title/Title";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 import { useAuth } from "../../hooks/useAuth";
